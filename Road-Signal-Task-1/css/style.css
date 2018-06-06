@@ -1,0 +1,39 @@
+
+body{
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+.signal{
+	height:230px;
+	width:150px;
+}
+
+.car{
+	margin-top:50px;
+}
+
+.way{
+	height:100px;
+	width:100%;
+}
+
+.opreat{
+	margin-top:70px;
+}
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
