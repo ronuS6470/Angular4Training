@@ -1,0 +1,86 @@
+   body{
+            overflow-x:hidden ; 
+            overflow-y: scroll; 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; 
+            background-size:120px 1000px;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+		
+        .flex-container {
+            display: flex;
+            margin: auto;
+            width: 100%;
+            margin-top: 40px;  
+                        
+        }
+        
+        .vsignal
+        {
+            padding-left:35%;
+			margin-top: -500px;
+            
+            
+        }
+        .hsignal
+        {
+            padding-left: 07%;   
+          
+        }
+		
+        .hcardiv
+        {
+            
+            margin: auto;
+            height:180px;
+            margin-top:-472px;
+            width:auto;
+            background-image: url("../images/images.jpg");
+			
+           
+        }
+		
+		hr.style {
+			background-color: yellow;
+			border-top: 2px dashed #8c8b8b;
+		}
+		
+
+        .maindiv{
+            height:790px;
+            width: auto;
+            
+        }
+
+        .vcardiv
+        {
+            margin-left: 700px;
+            padding-right: 90px;
+            padding-left: 70px;
+            background-image: url("../images/images.jpg");
+            width: 20px;
+            height: 790px;
+            margin: auto;
+        }
+		
+		.btn {
+			border: none; /* Remove borders */
+			color: white; /* Add a text color */
+			padding: 14px 28px; /* Add some padding */
+			cursor: pointer; /* Add a pointer cursor on mouse-over */
+		}
+
+		.success {background-color: #4CAF50;} /* Green */
+		.success:hover {background-color: #46a049;}
+
+		.warning {background-color: #ff9800;} /* Orange */
+		.warning:hover {background: #e68a00;}
+
+		.danger {background-color: #f44336;} /* Red */ 
+		.danger:hover {background: #da190b
