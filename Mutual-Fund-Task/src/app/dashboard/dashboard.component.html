@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <button class="btn btn-danger navbar-btn" align="right" [routerLink]="['/login']">Logout</button>
+  </div>
+</nav>
+
+<div class="container">
+  <h2>Dashboard</h2>
+  
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <h3 class="panel-title">
+                          <span class="glyphicon glyphicon-bookmark"></span> Mutual Funds</h3>
+                  </div>
+                  <div class="panel-body">
+                      <div class="row">
+                          <div class="col-xs-6 col-md-6">
+                            <a href="#" class="btn btn-danger btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Reliance</a>
+                            <a href="#" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>	TCS</a>
+                            <a href="#" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Maruti Suzuki</a>
+                            <a href="#" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Tata Power</a>
+                          </div>
+                          <div class="col-xs-6 col-md-6">
+                            <a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Hero Motocorp</a>
+                            <a href="#" class="btn btn-info btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Adani Ports</a>
+                            <a href="#" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Reliance Infra</a>
+                            <a href="#" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>ILandFS Trans</a>
+                          </div>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+</body>
+</html>
