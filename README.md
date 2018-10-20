@@ -1,1 +1,1 @@
-# Angular4Training
+# AngularTraining
